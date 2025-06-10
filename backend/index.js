@@ -37,7 +37,7 @@ function levenshteinDistance(a, b) {
   return dp[a.length][b.length];
 }
 
-app.get('/api/suggest', (req, res) => {
+app.get('/suggest', (req, res) => {
   const query = req.query.q || '';
   let suggestions = trie.suggest(query.toLowerCase());
 
