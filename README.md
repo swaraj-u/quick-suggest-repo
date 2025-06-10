@@ -1,0 +1,1 @@
+This is Quick Suggest. It is web-based autocomplete system that suggests words or phrases as the user types. The app has been deployed on public URL: http://13.233.194.159/. You can also download the backend and frontend files and install the necessary node modules.
