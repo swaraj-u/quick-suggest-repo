@@ -6,7 +6,7 @@ export default function App() {
   const [query, setQuery] = useState('');
   const [suggestions, setSuggestions] = useState([]);
 
-  const BACKEND_URL = "http://3.110.168.115";
+  const BACKEND_URL = "http://13.232.52.162";
 
   useEffect(() => {
     if (query) {
